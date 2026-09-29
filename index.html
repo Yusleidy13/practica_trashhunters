@@ -3,107 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Trash Hunters</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #87ceeb;
-            text-align: center;
-            color: #333;
-        }
-
-        header {
-            background-color: #2c7a7b;
-            color: white;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 45px;
-            margin: 0;
-        }
-
-        .contenedor {
-            padding: 40px 20px;
-        }
-
-        .juego {
-            background-color: white;
-            max-width: 700px;
-            margin: auto;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        .juego img {
-            width: 300px;
-            max-width: 100%;
-            border-radius: 10px;
-        }
-
-        .boton {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 15px 30px;
-            background-color: #e67e22;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-size: 20px;
-        }
-
-        .boton:hover {
-            background-color: #d35400;
-        }
-
-        footer {
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #2c7a7b;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
         <h1>TRASH HUNTERS</h1>
-        
+        <p>¡Limpia la playa y consigue puntos!</p>
     </header>
 
-    <div class="contenedor">
+    <main>
+        <section class="game">
+            <h2>Bienvenido a Trash Hunters</h2>
 
-        <div class="juego">
-
-            <h2>Sobre el juego</h2>
-
-            <p>
-                Trash Hunters es un videojuego de plataformas
-                ambientado en una playa. Ayuda al personaje a
-                recoger basura y superar diferentes obstáculos.
+            <p id="mensaje">
+                Presiona el botón para comenzar.
             </p>
 
-            <h2>Características</h2>
-
-            <p>1 nivel</p>
-            <p> Recoge frutas para ganar puntos</p>
-            <p> Evita los obstáculos</p>
-            <p> Tienes 3 vidas</p>
-            <p> Consigue la mayor puntuación</p>
-
-            <a href="#" class="boton">JUGAR</a>
-
-        </div>
-
-    </div>
+            <button id="startButton">
+                Jugar
+            </button>
+        </section>
+    </main>
 
     <footer>
-        <p>Trash Hunters © 2026</p>
+        <p>Proyecto DevOps - Trash Hunters</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

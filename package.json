@@ -1,0 +1,29 @@
+{
+  "name": "practica_trashhunters",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:html": "html-validate \"**/*.html\"",
+    "check:css": "stylelint \"**/*.css\"",
+    "check:js": "eslint \"**/*.js\"",
+    "check": "npm run check:html && npm run check:css && npm run check:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yusleidy13/practica_trashhunters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yusleidy13/practica_trashhunters/issues"
+  },
+  "homepage": "https://github.com/Yusleidy13/practica_trashhunters#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "html-validate": "^10.9.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
