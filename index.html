@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Trash Hunters</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="manifest"
+        href="manifest.webmanifest">
+
+  <meta name="theme-color" content="#0788e7">
+
+  <link rel="apple-touch-icon"
+        href="images/trash hunters.png">
+
+</head>
+
+<body>
+  <header class="hero" id="inicio" style="background-image: url(images/trash\ hunters.png);">
+   
+    <nav class="top-nav" aria-label="Navegación principal">
+      <a href="#tecnologias">Desarrollo</a>
+      <a href="#licencias">Licencias</a>
+      <a href="#privacidad">Aviso de privacidad</a>
+    </nav>
+  <br><br><br>
+      <a class="play-button" href="#descarga" aria-label="Ir a la sección de descarga">DESCARGAR</a>
+    
+  </header>
+
+  <main>
+    <section class="intro" style="background-image: url(images/fondo_blanco.png);background-repeat: no-repeat;" id="descripcion">
+      <div class="intro-label">
+        <h2>Descripción</h2>
+        <p>Recorre la playa, recolecta objetos, supera obstáculos y consigue la mayor cantidad de puntos posible.</p>
+      </div>
+      <div class="intro-copy">
+        <h2 class="pink-title">¡Las playas necesitan tu ayuda!</h2>
+        <p>En Trash Hunters, el jugador se convierte en un cazador de basura que recorre diferentes escenarios. Durante su aventura deberá demostrar sus habilidades para evitar peligros y conseguir la mayor puntuación posible.</p>
+      </div>
+    </section>
+
+    <section class="play-info" >
+      <div class="info-panel obstacles" id="caracteristicas">
+        <h2>Obstáculos</h2>
+        <div class="item-grid obstacle-grid">
+          <article class="item-card">
+            <img src="images/pelota_golpe.png" alt="Pelota" onerror="this.src='assets/placeholder.png'">
+            <p class="puntos">-10 puntos</p>
+          </article>
+          <article class="item-card">
+            <img src="images/fuego.png" alt="Fuego" onerror="this.src='assets/placeholder.png'">
+            <p style="font-size: 15px;">Te quita una vida</p>
+          </article>
+          <article class="item-card">
+            <img src="images/llanta.png" alt="Llanta" onerror="this.src='assets/placeholder.png'">
+            <p class="puntos"> -5 puntos</p>
+          </article>
+          <article class="item-card">
+            <img src="images/red.png" alt="Red" onerror="this.src='assets/placeholder.png'">
+            <p style="font-size: 15px;">Impide la visión</p>
+          </article>
+        </div>
+      </div>
+      </section>
+  <section class="play-info" style="background-image: url(images/olas.png);" >
+      <div class="rewards-row" id="recompensas" >
+        <h2>Recompensas</h2>
+        <div class="item-grid reward-grid">
+          <article class="item-card reward-card">
+            <img src="images/coco.png" alt="Coco" onerror="this.src='assets/placeholder.png'">
+            <p class="puntos" style="font-size: 20px;">+10 pts</p>
+          </article>
+          <article class="item-card reward-card">
+            <img src="images/pescado.png" alt="Sandía" onerror="this.src='assets/placeholder.png'">
+            <p class="puntos">+10 pts</p>
+          </article>
+          <article class="item-card reward-card">
+            <img src="images/banana.png" alt="Plátano" onerror="this.src='assets/placeholder.png'">
+            <p class="puntos">+5 pts</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tutorial-section" id="tutorial">
+      <h2>Tutorial</h2>
+      <div class="tutorial-content">
+        <p class="tutorial-intro">¡Aprende a jugar y conviértete en el mejor Trash Hunter!</p>
+        <div class="tutorial-steps">
+          <article><span>1</span><h3>Corre</h3><p>Avanza por la playa y mantente alerta.</p></article>
+          <article><span>2</span><h3>Salta</h3><p>Evita los obstáculos que encuentres en el camino.</p></article>
+          <article><span>3</span><h3>Recolecta</h3><p>Consigue objetos para sumar puntos.</p></article>
+          <article><span>4</span><h3>¡Supera tu récord!</h3><p>Cuida tus vidas y consigue la mejor puntuación.</p></article>
+        </div>
+       <!--
+        <video class="tutorial-video" controls poster="assets/tutorial-poster.png">
+         
+          Tu navegador no puede reproducir este video.
+        </video>
+        <p class="small-note">Agrega tu grabación de una partida como <code>assets/tutorial.mp4</code>. Si todavía no tienes video, puedes eliminar este reproductor.</p>
+    --> 
+    </div>
+    </section>
+
+    <section class="requirements" id="requisitos">
+      <h2>Requisitos</h2>
+      <div class="requirements-grid">
+        <p><strong>4 GB RAM</strong><br>Windows 10 de 64 bits o compatible</p>
+        <p><strong>500 MB en disco</strong><br>No necesita internet para jugar, salvo funciones en línea</p>
+      </div>
+    </section>
+
+    <section class="details-grid">
+      <div class="details-card technologies" id="tecnologias">
+        <h2 class="tech">Tecnologías <span aria-hidden="true">🎮</span></h2>
+        <ul>
+          <li><span class="tech-icon">⚙️</span> Godot Engine 4.6.2</li>
+          <li><span class="tech-icon">💻</span> GDScript</li>
+          <li><span class="tech-icon">✨</span> Pixel art</li>
+          <li><span class="tech-icon">🔗</span> Git y GitHub</li>
+        </ul>
+      </div>
+      <div class="details-card warnings" id="advertencias">
+        <h2 class="warning">⚠ Advertencias</h2>
+        <p class="check-line">✔ Clasificación sugerida: apto para público infantil</p>
+        <p>Orientado a niños y niñas de 8 a 12 años.</p>
+       
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="footer-contact">
+      <h2>Contacto</h2>
+      <p><strong>Desarrollo de Trash Hunters</strong></p>
+      <p>Agrega aquí tu correo de contacto público si deseas recibir consultas.</p>
+    </div>
+    <p class="copyright">© <span id="year"></span> Trash Hunters · ¡Ayudemos a cuidar nuestras playas!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
