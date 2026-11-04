@@ -1,0 +1,24 @@
+
+{
+  "name": "Trash Hunters",
+  "short_name": "Trash Hunters",
+  "description": "¡Corre, salta y ayuda a cuidar nuestras playas!",
+  "lang": "es-MX",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f9d27d",
+  "theme_color": "#0788e7",
+  "icons": [
+    {
+      "src": "images/trash hunters.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/trash hunters.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

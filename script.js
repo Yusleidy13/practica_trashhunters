@@ -1,14 +1,26 @@
-const boton = document.getElementById("startButton");
-const mensaje = document.getElementById("mensaje");
+// Año automático en el pie de página.
+document.getElementById("year").textContent = new Date().getFullYear();
 
-let puntos = 0;
+if ("serviceWorker" in navigator) {
 
-boton.addEventListener("click", function() {
+  window.addEventListener("load", () => {
 
-    puntos += 10;
+    navigator.serviceWorker.register(
+      "./service-worker.js"
+    )
+    .then(registration => {
+      console.log(
+        "Trash Hunters PWA instalada:",
+        registration.scope
+      );
+    })
+    .catch(error => {
+      console.error(
+        "Error al registrar la PWA:",
+        error
+      );
+    });
 
-    mensaje.textContent =
-        "¡Juego iniciado! Puntos: " + puntos;
+  });
 
-    boton.textContent = "Recolectar basura";
-});
+}
