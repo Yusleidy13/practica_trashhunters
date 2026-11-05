@@ -7,8 +7,8 @@ const ARCHIVOS = [
   "./style.css",
   "./script.js",
   "./manifest.webmanifest",
-  "./images/trash hunters.png",
-  "./images/trash hunters.png"
+  "./images/trash hunters (1).png",
+  "./images/trash hunters (1).png"
 ];
 
 // Guardar los archivos principales.
